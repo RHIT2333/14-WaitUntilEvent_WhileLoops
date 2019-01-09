@@ -3,8 +3,8 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Hanrui Chen.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -34,6 +34,8 @@ def double_a_float():
     # TODO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+
+    
 
 
 def print_an_integer_many_times():
@@ -67,6 +69,7 @@ def print_an_integer_many_times():
     # -------------------------------------------------------------------------
 
 
+
 def print_an_integer_many_times_on_one_row():
     """
     Same as the previous problem, but print the numbers
@@ -81,13 +84,18 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # -------------------------------------------------------------------------
 
+    number = ''
+    times = int(input('Enter an integer:'))
+    for k in range(times):
+        number = number + str(2 * times)
+    print(number)
 
 def input_it_all():
     """
