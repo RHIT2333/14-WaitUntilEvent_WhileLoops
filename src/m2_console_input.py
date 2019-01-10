@@ -35,8 +35,8 @@ def double_a_float():
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
-    
-
+    num = float(input('Enter a number:'))
+    print(2 * num)
 
 def print_an_integer_many_times():
     """
@@ -68,6 +68,9 @@ def print_an_integer_many_times():
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
+    num = int(input('Enter an number:'))
+    for k in range(num):
+        print(2 * num)
 
 
 def print_an_integer_many_times_on_one_row():
@@ -132,6 +135,14 @@ def input_it_all():
     # TODO: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+
+    flo_e = float(input('Enter a positive floating point number:'))
+    int_e = int(input('Enter a positive integer:'))
+    str_e = input('Enter a string:')
+    for k in range(int_e):
+        print(flo_e)
+    for k in range(int_e):
+        print(str_e)
 
 
 # -----------------------------------------------------------------------------
