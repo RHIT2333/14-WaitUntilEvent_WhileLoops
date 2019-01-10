@@ -355,6 +355,19 @@ def prime_gap(m):
     #       (that you implemented) appropriately.
     # -------------------------------------------------------------------------
 
+    sum_p = 2
+    num_p = 2
+    num_n = 2
+    while True:
+        if num_n - num_p == m:
+            break
+        else:
+            if is_prime(sum_p):
+                num_n = sum_p
+                sum_p =sum_p + 1
+            else:
+                
+                sum_p = sum_p + 1
 
 
 def run_test_wait_for_sum_of_cubes():
